@@ -208,27 +208,22 @@ p {
 }
 
 /*update*/
-
 .hero-image img {
   max-width: 100%;
   width: 400px;
   height: 400px;
   object-fit: cover;
   border: 5px solid #fff;
-  display: block;
+  display: block; /* Show by default (for PC) */
   margin: 20px auto;
   position: relative;
   left: 100px;
 }
 
-/* For mobile devices */
+/* Hide image on mobile devices */
 @media (max-width: 768px) {
   .hero-image img {
-    width: 125%; /* Keep this value */
-    height: 50%; /* Adjust this value to control the height in viewport height */
-    left: 0;
-    margin: 0; /* Removed margin */
-    max-width: none; /* Allow the image to grow beyond the container's width */
+    display: none; /* Hide on smaller screens */
   }
 }
 
