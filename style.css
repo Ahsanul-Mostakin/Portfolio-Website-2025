@@ -224,10 +224,11 @@ p {
 /* For mobile devices */
 @media (max-width: 768px) {
   .hero-image img {
-    width: 100%;
-    height: auto;
+    width: 200%; /* Keep this value */
+    height: 50%; /* Adjust this value to make the image shorter */
     left: 0;
-    margin: 10px auto;
+    margin: 0; /* Removed margin */
+    max-width: none; /* Allow the image to grow beyond the container's width */
   }
 }
 
