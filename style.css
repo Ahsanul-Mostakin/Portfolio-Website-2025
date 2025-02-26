@@ -224,10 +224,10 @@ p {
 /* For mobile devices */
 @media (max-width: 768px) {
   .hero-image img {
-    width: 100%; /* Use full width on smaller screens */
-    height: auto; /* Maintain aspect ratio */
-    left: 0; /* Reset left positioning */
-    margin: 10px auto; /* Adjust margin */
+    width: 100%;
+    height: auto;
+    left: 0;
+    margin: 10px auto;
   }
 }
 
