@@ -211,8 +211,8 @@ p {
 
 .hero-image img {
   max-width: 100%;
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   border: 5px solid #fff;
   display: block;
@@ -224,8 +224,8 @@ p {
 /* For mobile devices */
 @media (max-width: 768px) {
   .hero-image img {
-    width: 200%; /* Keep this value */
-    height: 50%; /* Adjust this value to make the image shorter */
+    width: 120%; /* Keep this value */
+    height: 62vh; /* Adjust this value to control the height in viewport height */
     left: 0;
     margin: 0; /* Removed margin */
     max-width: none; /* Allow the image to grow beyond the container's width */
