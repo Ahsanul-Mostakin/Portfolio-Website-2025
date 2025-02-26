@@ -221,13 +221,13 @@ p {
   left: 100px;
 }
 
+/* For mobile devices */
 @media (max-width: 768px) {
   .hero-image img {
-    width: 100%;
-    height: 370px;
-    object-fit: cover;
-    left: 0;
-    margin: 12px auto;
+    width: 100%; /* Use full width on smaller screens */
+    height: auto; /* Maintain aspect ratio */
+    left: 0; /* Reset left positioning */
+    margin: 10px auto; /* Adjust margin */
   }
 }
 
