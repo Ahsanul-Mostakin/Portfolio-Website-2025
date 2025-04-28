@@ -496,6 +496,10 @@ p {
   color: white;
 }
 
+#projects .project-info .project-link {
+  color: #e67e22;
+}
+
 #projects .project-info h1 {
   font-size: 3.5rem;
   font-weight: 500;
@@ -887,7 +891,7 @@ p {
   }
 
   #contact .contact {
-    padding: 80px 40px;
+    padding: simulation80px 40px;
   }
 }
 /* End Media Query For Desktop */
